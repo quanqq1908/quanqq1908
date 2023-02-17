@@ -1,0 +1,11 @@
+ ul.ad_list{
+  
+    list-style: none;
+ }
+ ul.ad_list li{
+    float: left;
+    margin: 5px;
+ }
+ .clear{
+    clear: both;
+ }

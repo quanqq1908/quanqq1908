@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    border: 1px solid #000;
+    height: 757 px;
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+    background-image: url("../images/banner_phukiendidong.png");
+    border: 1px solid rgb(21, 96, 236);
+    height: 180px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+}
+.menu{
+    border: 1px solid rgb(151, 13, 13);
+    height: 50px;
+    width: 100%;
+    background: rgb(74, 189, 202);
+}
+#main{
+    border: 1px solid rgb(220, 220, 5);
+    height: 400px;
+    width: 100%;
+}
+
+.maincontent{
+    border: 1px solid rgb(152, 223, 30);
+    height: 390px;
+    width: 79%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.list_menu{
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    list-style: none;
+}
+.list_menu li{
+    float: left;
+    margin: 10px;
+    padding: 5px;
+}
+.list_menu li:hover{
+    background-color: rgb(166, 238, 10);
+}
+.list_menu li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(119, 31, 233);
+}
+.sidebar{
+    border: 1px solid rgb(220, 220, 5);
+    height: 390px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+.list_sidebar{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+}
+.list_sidebar li{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+.list_sidebar li:hover{
+    background-color: rgb(238, 10, 10);
+}
+.list_sidebar li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(34, 233, 31);
+}
+.product_list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+.product_list li{
+    width: 15%;
+}
+.footer{
+    border: 1px solid rgb(104, 232, 213);
+    height: 120px;
+    width: 100%;
+    background: rgb(108, 103, 208);
+}
+

@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin: 5px;
+    color: rgb(248, 41, 41);
+}
+.wrapper{
+    border: 1px solid #f2f2f2;
+    height: 757 px;
+    width: 90%;
+    margin: 0 auto;
+}
+.wrapper_chitiet{
+    width: 80%;
+    margin: 0 auto;
+    color: #28262697;
+}
+.header{
+    background-image: url("../images/banner22.png");
+    border: 1px solid #d70018;
+    height: 180px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+}
+.menu{
+    border: 1px solid rgb(151, 13, 13);
+    height: 50px;
+    width: 100%;
+    background: #b70015;
+}
+#main{
+    border: 1px solid rgb(234, 228, 225);
+    box-shadow: 0 30px 40px rgba(44, 42, 42, 0.1);
+    height: auto;
+    width: 100%;
+}
+
+.maincontent{
+    box-shadow: 0 30px 40px rgba(44, 42, 42, 0.1);
+    border-radius: 8px;
+    height: auto;
+    width: 79%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.list_menu{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+}
+.list_menu li{
+    border-radius:4px;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+}
+.list_menu li:hover{
+    border-radius: 4px;
+    background-color: #f1111c;
+}
+.list_menu li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(234, 236, 220);
+}
+.sidebar{
+    border: 1px solid rgb(234, 228, 225);
+    box-shadow: 0 30px 40px rgba(44, 42, 42, 0.1);
+    border-radius: 8px;
+    height: auto;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+.list_sidebar{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+}
+.list_sidebar li{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+.list_sidebar li:hover{
+    background-color: #f4f5f6;
+    box-shadow: 5px 10px 10px rgba(44, 42, 42, 0.1);
+}
+.list_sidebar li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(177, 16, 4);  
+}
+.product_list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 111%;
+}
+.product_list li{
+    width: 16%;
+    border: 1px solid rgb(234, 228, 225);
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    box-shadow: 0 30px 40px rgba(44, 42, 42, 0.1);
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: 323px;
+}
+.product_list :hover{
+    box-shadow: 0 30px 40px rgba(44, 42, 42, 0.1);
+    background-color: #e9e9e9;
+    border-radius: 8px;
+    
+}
+.product_list li img{
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    height: 180px;
+}
+.titel_product{
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    font-weight: 200;
+}
+.titel_pro{
+    text-align: center;
+    color: rgba(188, 186, 207, 0.775);
+    font-size: 15px;
+    font-weight: 200;
+}
+.price_product{
+    text-align: center;
+    color: rgb(221, 25, 25);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.product_list li a{
+    text-decoration: none;
+}
+.btn_giohang{
+    background-color: #3ee670ec;
+    border: #34f053;
+    color: #fcfafad0;
+    border-radius: 4px;
+    padding: 6px;
+    cursor: pointer;
+}
+.footer{
+    border: 1px solid #b70015;
+    height: 120px;
+    width: 100%;
+    background: #b70015;
+}
+
+    button {
+        border-radius: 8px;
+      background-color: #b70015;
+      padding: 6px;
+      width: auto;
+      margin: 8px;
+      border: none;
+      cursor: pointer;
+      color:white;
+    }
+    
+    button:hover {
+      opacity: 0.8;
+    }
+.tim{
+    float: right;
+}
+.btn_tim{
+    background-color: #e63e3eec;
+    border: #800a0a;
+    color: #fcfafad0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.timm{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+

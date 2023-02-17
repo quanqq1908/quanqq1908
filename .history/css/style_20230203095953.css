@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    border: 1px solid #b70015;
+    height: 757 px;
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+    background-image: url("../images/banner_phukiendidong.png");
+    border: 1px solid #f03434;
+    height: 180px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+}
+.menu{
+    border: 1px solid rgb(151, 13, 13);
+    height: 50px;
+    width: 100%;
+    background: #b70015;
+}
+#main{
+    border: 1px solid #b70015;
+    height: auto;
+    width: 100%;
+}
+
+.maincontent{
+    border: 1px solid #b70015;
+    border-radius: 8px;
+    height: auto;
+    width: 79%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.list_menu{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+}
+.list_menu li{
+    border-radius: 2%;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+}
+.list_menu li:hover{
+    border-radius: 4px;
+    background-color: #f1111c;
+}
+.list_menu li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(234, 236, 220);
+}
+.sidebar{
+    border: 1px solid rgb(197, 13, 13);
+    border-radius: 8px;
+    height: 390px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+.list_sidebar{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+}
+.list_sidebar li{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+.list_sidebar li:hover{
+    background-color: #f4f5f6;
+}
+.list_sidebar li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(177, 16, 4);  
+}
+.product_list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+.product_list li{
+    width: 16%;
+    border: 1px solid rgb(234, 228, 225);
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    box-shadow: 0 30px 40px rgba(26, 25, 25, 0.1);
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: 323px;
+}
+.product_list li img{
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+}
+.titel_product{
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    font-weight: 200;
+}
+.price_product{
+    text-align: center;
+    color: rgb(221, 25, 25);
+    font-size: 18px;
+    font-weight: bold;
+}
+.product_list li a{
+    text-decoration: none;
+}
+.footer{
+    border: 1px solid rgb(214, 151, 23);
+    height: 120px;
+    width: 100%;
+    background: rgb(189, 39, 49);
+}
+

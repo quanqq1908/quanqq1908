@@ -1,0 +1,8 @@
+ ul.ad_list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+ }
+ ui.ad_list li{
+    float: left;
+ }
