@@ -8,7 +8,11 @@
     <title>Di động thông minh</title>
 </head>
 <body>
+<<<<<<< HEAD
     <h1>Test lỗi</h1>
+=======
+
+>>>>>>> e46b801af069ac937edc9cc9e3ce9a818c7e77ee
     <div class="wrapper">
         <?php
         session_start();
