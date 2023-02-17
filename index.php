@@ -8,7 +8,7 @@
     <title>Di động thông minh</title>
 </head>
 <body>
-    <h1> Kiểm tra lỗi </h1>
+
     <div class="wrapper">
         <?php
         session_start();
